@@ -1,0 +1,140 @@
+h1 {
+  text-align: center;
+  color: white;
+  background: darkred;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+body {
+  background: burlywood;
+  padding: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.coluna1 {
+  width: 48%;
+  float: right;
+}
+
+.coluna2 {
+  width: 48%;
+  float: left;
+}
+
+h2 {
+  text-align: center;
+  color:rgb(0, 0, 0);
+  background-color: white;
+  padding: 5px;
+  margin: 0px 0px 10px 0px;
+  box-shadow: 2px 2px 2px rgb(255, 134, 64);
+  border-radius: 15%;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;  
+  color: maroon;
+  font-weight: bold;
+}
+
+img {
+  max-width: 45%;
+}
+
+.foto1 {
+  width: 200px;
+  padding: 15px;
+  margin-left: 150px;
+  margin-bottom: 25px;
+  box-shadow: 6px 6px 6px darkred;
+  transform: rotate3d(5px);
+}
+
+.foto2 {
+  width: 200px;
+  padding: 15px;
+  margin-left: 150px;
+  margin-bottom: 25px;
+  box-shadow: 6px 6px 6px rgb(132, 139, 0);
+  transform: rotate(5deg);
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.item {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.tipos-bolsas p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color:rgb(233, 179, 0);
+  background-color: rgb(25, 9, 9);
+  padding: 30px;
+  margin: 0px 0px 10px 0px;
+  box-shadow: 2px 2px 2px rgb(255, 134, 64);
+  border-radius: 10%;
+}
+
+.enquete p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color:rgb(233, 179, 0);
+  background-color: rgb(25, 9, 9);
+  padding: 30px;
+  margin: 0px 0px 10px 0px;
+  box-shadow: 2px 2px 2px rgb(255, 134, 64);
+  border-radius: 10%;
+}
+
+.lista-enquete li {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color:rgb(233, 144, 0);
+  background-color: rgb(255, 239, 239);
+  padding: 15px;
+  margin: 0px 0px 10px 0px;
+  box-shadow: 2px 2px 2px rgb(124, 8, 8);
+  border-radius: 10%;
+}
+
+section {
+  padding: 30px;
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  border-width: 30px;
+  border-color: black;
+  background: brown;
+  border-style: solid;
+  display: inline-block
+  
+}
+
+section p {
+  font-weight: bold;
+  font-size: 15px;
+  color:rgb(255, 239, 239)
+}
+
+.modelos img {
+  width: 250px;
+  float: left;
+  margin: 60px;
+  border-radius: 30px 10px 10px 10px;
+}
+
+.modelos p {
+  padding: 30px;
+  font-size: 15px;
+  color: aliceblue;
+  background-color: brown;
+  border-radius: 30%;
+}
+
